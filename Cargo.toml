@@ -6,6 +6,7 @@ build = "build.rs"
 
 [dependencies]
 anyhow = "1.0.97"
+sdl2 = "0.37.0"
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"
 
