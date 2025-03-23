@@ -5,3 +5,9 @@ defaults:
   fps: 60
   width: 800
   height: 600
+renderer:
+  zoom: 2
+  xxo: 17
+  xyo: 16
+  yxo: 8
+  yyo: 25

@@ -176,7 +176,6 @@ name = "isometric_test"
 version = "0.1.0"
 dependencies = [
  "fmod-oxide",
- "map",
  "sdl2",
  "serde",
  "serde_yaml",
@@ -250,17 +249,6 @@ name = "log"
 version = "0.4.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "30bde2b3dc3671ae49d8e2e9f044c7c005836e7a023ee57cffa25ab82764bb9e"
-
-[[package]]
-name = "map"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_yaml",
- "std_utils",
- "tracing",
- "tracing-subscriber",
-]
 
 [[package]]
 name = "memchr"

@@ -16,9 +16,19 @@ pub struct Defaults {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+pub struct Renderer {
+    pub zoom: u32,
+    pub xxo: i32,
+    pub xyo: i32,
+    pub yxo: i32,
+    pub yyo: i32,
+}
+
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Config {
     pub tiles: ConfigPair,
     pub defaults: Defaults,
+    pub renderer: Renderer,
 }
 
 impl Config {
