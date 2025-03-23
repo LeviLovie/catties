@@ -24,7 +24,7 @@ serde_yaml.workspace = true
 tracing.workspace = true
 tracing-subscriber.workspace = true
 map = { path = "crates/map" }
-sdl2 = "0.37.0"
+sdl2 = { version = "0.37.0", features = ["ttf", "image"] }
 
 [dependencies.fmod-oxide]
 git = "https://github.com/melody-rs/fmod-oxide"

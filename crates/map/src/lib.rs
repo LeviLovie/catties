@@ -4,10 +4,11 @@ use std_utils::{Error, Result};
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Rect {
-    x: u32,
-    y: u32,
-    w: u32,
-    h: u32,
+    pub x: u32,
+    pub y: u32,
+    pub w: u32,
+    pub h: u32,
+    pub o: u32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -33,6 +34,10 @@ impl Tiles {
 
     pub fn len(&self) -> usize {
         self.tiles.len()
+    }
+
+    pub fn iter(&self) -> std::slice::Iter<Tile> {
+        self.tiles.iter()
     }
 
     pub fn get(&self, index: u32) -> Result<&Tile> {

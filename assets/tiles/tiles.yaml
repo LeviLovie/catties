@@ -2,9 +2,29 @@
   tag: none
   solid: false
   transparent: false
-  rect: { x: 32, y: 16, w: 32, h: 16 }
+  rect: { x: 32, y: 16, w: 33, h: 33, o: 16 }
 - id: 1
-  tag: air
+  tag: forest
   solid: true
   transparent: false
-  rect: { x: 64, y: 16, w: 32, h: 16 }
+  rect: { x: 32, y: 80, w: 33, h: 33, o: 16 }
+- id: 2
+  tag: grass
+  solid: true
+  transparent: false
+  rect: { x: 64, y: 48, w: 33, h: 33, o: 16 }
+- id: 3
+  tag: ocean
+  solid: true
+  transparent: false
+  rect: { x: 96, y: 16, w: 33, h: 33, o: 16 }
+- id: 4
+  tag: sea
+  solid: true
+  transparent: false
+  rect: { x: 128, y: 48, w: 33, h: 33, o: 16 }
+- id: 5
+  tag: beach
+  solid: true
+  transparent: false
+  rect: { x: 96, y: 80, w: 33, h: 33, o: 16 }
