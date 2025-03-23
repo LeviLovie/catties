@@ -1,2 +1,2 @@
-# catties
-A cute game about cats
+# Isometric Test
+This is an example of an isometric game in Rust
