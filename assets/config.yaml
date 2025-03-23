@@ -1,0 +1,7 @@
+tiles:
+  config: ./assets/tiles/tiles.yaml
+  file: ./assets/tiles/tiles.png
+defaults:
+  fps: 60
+  width: 800
+  height: 600

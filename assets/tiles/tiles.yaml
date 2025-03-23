@@ -1,0 +1,10 @@
+- id: 0
+  tag: none
+  solid: false
+  transparent: false
+  rect: { x: 32, y: 16, w: 32, h: 16 }
+- id: 1
+  tag: air
+  solid: true
+  transparent: false
+  rect: { x: 64, y: 16, w: 32, h: 16 }
